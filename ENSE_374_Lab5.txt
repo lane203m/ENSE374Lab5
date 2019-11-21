@@ -1,0 +1,16 @@
+Lab5 ENSE 374 submission:
+https://github.com/lane203m/ENSE374Lab5
+
+This contains the class diagram and first iteration of the ecosystem (placing animals in world)
+IN future iterations, it may be wise to split animals into separate classes denoting behavior
+For instance, Grass should derive from plant which derives from organism
+Wolf should derive from prey which derives form organism
+
+In this version I have not done that, as there was not enough behavioral differences 
+from either organism to warrent such abstraction.
+
+
+main is in the default srs package
+all organism files are in the Organisms package
+
+Javadocs were generated.
